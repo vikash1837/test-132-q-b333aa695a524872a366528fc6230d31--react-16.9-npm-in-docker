@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  border:5px solid black;
+  margin:0 auto;
+  margin-top:180px;
+  width:256px;
 }
 
 .App-logo {
@@ -31,3 +35,30 @@
     transform: rotate(360deg);
   }
 }
+.keys{
+  display:grid;
+  font-size:large;
+  height:300px;
+  grid-template-columns:repeat(4,1fr);
+  grid-autorows:minimax(60px,auto);
+}
+input[type="keys"]{
+  background-color:grey;
+  height:50px;
+  width:250px;
+  font-size:larger;
+}
+#clear{
+  font-size:larger;
+  color:black;
+  background-color:white;
+}
+#Result{
+  background-color:darkgreen;
+  color:black;
+  font-size:xx-large;
+}
+#sum,#sub,#mul,#divide
+}
+  
+  
