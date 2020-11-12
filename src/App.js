@@ -56,7 +56,7 @@ function App(){
     <button name="3" onClick={click}>3</button>
     <button name="+" onClick={click}>+</button>
     <button name="%" onClick={click}>%</button>
-    <button name="0" onClick={click}>0</button>
+    <button id="0" name="0" onClick={click}>0</button>
     <button name="." onClick={click}>.</button>
     </div>
     </div>
