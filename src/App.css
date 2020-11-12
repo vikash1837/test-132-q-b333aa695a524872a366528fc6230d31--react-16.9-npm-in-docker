@@ -54,8 +54,9 @@ input[type="keys"]{
   color:black;
   font-size:xx-large;
 }
-#sum,#sub,#mul,#divide{
+#sum,#sub,#mul,#divide,#modulo{
   font-size:xx-large;
+  background-color:red;
 }
 button{
   font-size:larger;
