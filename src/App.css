@@ -1,74 +1,53 @@
 .App {
-  text-align: center;
-  border:5px solid black;
-  margin:0 auto;
-  margin-top:180px;
-  width:256px;
-}
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-.App-link {
-  color: #61dafb;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    text-align: center;
+    border:5px solid black;
+    margin:0 auto;
+    margin-top:180px;
+    width:256px;
   }
-  to {
-    transform: rotate(360deg);
+  .keys{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-auto-rows: minmax(60px auto);
+    height:300px;
+    font-size:large;
   }
-}
-.keys{
-  display:grid;
-  font-size:large;
-  height:300px;
-  grid-template-columns:repeat(4,1fr);
-  grid-autorows:minimax(60px,auto);
-}
-input[type="keys"]{
-  background-color:grey;
-  height:50px;
-  width:250px;
-  font-size:larger;
-}
-#clear{
-  font-size:larger;
-  color:black;
-  background-color:white;
-}
-#Result{
-  background-color:darkgreen;
-  color:black;
-  font-size:xx-large;
-}
-#sum,#sub,#mul,#divide,#modulo{
-  font-size:xx-large;
-  background-color:red;
-}
-#0{
-  grid-column:1/3;
-  grid-row:5;
-}
-button{
-  font-size:larger;
-  background-color:white;
-  color:white;
-}
-button:hover{
-  background-color:orange;
-}
-  
+  #Mainheader{
+    height:50px;
+    background-color: blueviolet;
+    color:white;
+  }
+  input[type="text"]{
+    background-color:grey;
+    height:50px;
+    width:250px;
+    font-size:larger;
+  }
+  #clear{
+    font-size:larger;
+    color:black;
+    background-color:white;
+  }
+  #Result{
+    background-color:darkgreen;
+    color:black;
+    font-size:xx-large;
+  }
+  #add,#sub,#mul,#divide,#mod{
+    font-size:xx-large;
+    background-color:red;
+    color:white;
+  }
+  #zero{
+    grid-column:1/3;
+    grid-row:5;
+  }
+  button{
+    font-size:larger;
+    background-color:white;
+    color:black;
+  }
+  button:hover{
+    background-color:orange;
+  }
   
